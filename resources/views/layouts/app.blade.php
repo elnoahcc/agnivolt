@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>@yield('title', 'Agnivolt')</title>
 
+  <link rel="icon" type="image/png" href="{{ asset('assets/icon-agnivolt.svg') }}">
+
   <!-- Tailwind CSS -->
   <link href="{{ asset('css/app.css') }}" rel="stylesheet">
   <script src="https://cdn.tailwindcss.com"></script>
@@ -68,6 +70,7 @@
   @include('section.product-detail')
   @include('section.target-section')
   @include('section.map-persebaran')
+  @include('section.news-agnivolt')
 
   @include('partials.footer')
 

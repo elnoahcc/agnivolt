@@ -1,7 +1,7 @@
 
 
 <!-- Navbar -->
-<nav id="navbar" class="font-semibold font-googlesans font-bold fixed w-full top-0 z-40 bg-white/80 backdrop-blur border-b border-gray-100 transition duration-300">
+<nav id="navbar" class="font-semibold font-inter font-bold fixed w-full top-0 z-40 bg-white/80 backdrop-blur border-b border-gray-100 transition duration-300">
   <div class="max-w-6xl mx-auto px-4 sm:px-6">
     <div class="flex justify-between items-center h-16">
       
@@ -15,7 +15,7 @@
         <a href="#home" class="nav-link text-sm font-medium text-gray-700 hover:text-blue-600">Home</a>
         <a href="#about" class="nav-link text-sm font-medium text-gray-600 hover:text-blue-600">About</a>
         <a href="#products" class="nav-link text-sm font-medium text-gray-600 hover:text-blue-600">Products</a>
-        <a href="#solutions" class="nav-link text-sm font-medium text-gray-600 hover:text-blue-600">Solutions</a>
+        <a href="#news" class="nav-link text-sm font-medium text-gray-600 hover:text-blue-600">News</a>
         <a href="#contact" class="nav-link text-sm font-medium text-gray-600 hover:text-blue-600">Contact</a>
       </div>
 
@@ -41,28 +41,26 @@
 <!-- Mobile Menu -->
 <div id="mobile-menu" class="fixed top-0 right-0 h-full w-72 bg-white shadow-xl z-50 transform translate-x-full transition-transform duration-300 md:hidden">
   <div class="p-6 font-inter">
-    <!-- Close Button -->
-    <div class="flex items-center justify-between mb-8">
-      <div class="flex items-center space-x-3">
-        <div class="w-8 h-8 bg-gradient-to-br from-sky-500 to-blue-600 rounded-lg flex items-center justify-center">
-          <svg class="w-5 h-5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
-          </svg>
-        </div>
-        <span class="text-lg font-semibold">Agnivolt</span>
-      </div>
-      <button id="close-menu" class="p-2 hover:bg-gray-100 rounded-lg transition">
-        <svg class="w-5 h-5 text-gray-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
-        </svg>
-      </button>
-    </div>
+   
+   <!-- Close Button -->
+<div class="flex items-center justify-between mb-8">
+  <div class="w-12 h-12 rounded-lg overflow-hidden">
+    <img src="{{ asset('assets/logoagnivolt.svg') }}" alt="Agnivolt Logo" class="w-full h-full object-contain">
+  </div>
+  <button id="close-menu" class="p-2 hover:bg-gray-100 rounded-lg transition">
+    <svg class="w-5 h-5 text-gray-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+    </svg>
+  </button>
+</div>
+
+
 
     <div class="space-y-1">
       <a href="#home" class="mobile-nav-link block px-4 py-3 text-gray-700 hover:text-blue-600 hover:bg-gray-50 rounded-lg transition">Home</a>
       <a href="#about" class="mobile-nav-link block px-4 py-3 text-gray-600 hover:text-blue-600 hover:bg-gray-50 rounded-lg transition">About</a>
       <a href="#products" class="mobile-nav-link block px-4 py-3 text-gray-600 hover:text-blue-600 hover:bg-gray-50 rounded-lg transition">Products</a>
-      <a href="#solutions" class="mobile-nav-link block px-4 py-3 text-gray-600 hover:text-blue-600 hover:bg-gray-50 rounded-lg transition">Solutions</a>
+      <a href="#news" class="mobile-nav-link block px-4 py-3 text-gray-600 hover:text-blue-600 hover:bg-gray-50 rounded-lg transition">News</a>
       <a href="#contact" class="mobile-nav-link block px-4 py-3 text-gray-600 hover:text-blue-600 hover:bg-gray-50 rounded-lg transition">Contact</a>
     </div>
 

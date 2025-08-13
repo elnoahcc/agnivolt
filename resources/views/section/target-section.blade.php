@@ -1,8 +1,8 @@
 <section class="bg-white px-6 md:px-20 py-20">
-<h2 class="text-4xl font-bold mb-10 text-center">Target Implementasi</h2>
+<h2 class="font-poppins text-4xl font-bold mb-10 text-center">Target Implementasi</h2>
 
   <!-- Pembungkus untuk skala -->
-  <div class="transform scale-[0.85] origin-top mx-auto max-w-[1600px]">
+  <div class="font-inter transform scale-[0.85] origin-top mx-auto max-w-[1600px]">
     <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
 
       <!-- KIRI -->
